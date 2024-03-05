@@ -82,7 +82,7 @@ public class Lab {
     }
     public void printLabInfo() {
         for (int i = 0; i < currentSize; i++) {
-            System.out.println("Teacher Name: " + teacherName + "\nDay of Week: " + dayOfWeek + "Max Size: " + maxSize);
+            System.out.println("Teacher Name: " + teacherName + "\nDay of Week: " + dayOfWeek + "\nMax Size: " + maxSize);
         }
     }
 
