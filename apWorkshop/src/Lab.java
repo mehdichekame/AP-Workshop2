@@ -80,7 +80,11 @@ public class Lab {
         currentSize++;
         students[currentSize - 1] = student;
     }
-
+    public void printLabInfo() {
+        for (int i = 0; i < currentSize; i++) {
+            System.out.println("Teacher Name: " + teacherName + "\nDay of Week: " + dayOfWeek + "Max Size: " + maxSize);
+        }
+    }
 
 
 }
